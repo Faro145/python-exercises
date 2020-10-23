@@ -1,6 +1,4 @@
 def near (string1, string2):
-    string1 = input("Enter first word")
-    string2 = input("Enter second word")
 
     a = len(string1)
     b = len(string2)
@@ -9,3 +7,5 @@ def near (string1, string2):
         return True
     else:
         return False
+
+print(near("reset", "rest"))
