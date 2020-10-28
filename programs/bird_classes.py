@@ -37,3 +37,15 @@ class Dodo(Bird):
             self.babies += 1
         else:
             print("No more dodos")
+            
+oliver = Owl()
+
+oliver.noise()
+print(oliver.babies)
+oliver.reproduce()
+print(oliver.babies)
+
+danny = Dodo()
+danny.extinct = True
+
+danny.reproduce()
