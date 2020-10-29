@@ -1,5 +1,5 @@
 import pytest
-import bird_classes
+from programs import bird_classes
 
 def test_bird_owl():
     assert bird_classes.oliver.babies == 6
